@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/all_background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="413dp"
+        android:background="@drawable/all_background"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/IV_insert"
+            android:layout_width="87dp"
+            android:layout_height="109dp"
+            android:src="@drawable/ic_account_circle_black_24dp" />
+
+        <LinearLayout
+            android:layout_width="282dp"
+            android:layout_height="357dp"
+            android:layout_marginLeft="10dp"
+            android:background="@android:drawable/edit_text"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/TV_insertDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:text="발신 시간 표시" />
+
+            <TextView
+                android:id="@+id/TV_insertName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:text="TextView"
+                tools:text="발신자 이름 표시 부분" />
+
+            <EditText
+                android:id="@+id/ET_insertTitle"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:hint="제목을 입력해주세요"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/ET_insertContext"
+                android:layout_width="259dp"
+                android:layout_height="148dp"
+                android:layout_weight="0"
+                android:gravity="top"
+                android:hint="내용을 입력해주세요"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                android:layout_weight="0"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_SearchTime"
+                    android:layout_width="128dp"
+                    android:layout_height="32dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/alram_insert_time" />
+
+                <TextView
+                    android:id="@+id/TV_insertTime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="#ffffff"
+                    android:hint="날짜 시간 표시"
+                    android:scaleType="fitCenter" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="51dp"
+                android:layout_weight="0"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_searchLocation"
+                    android:layout_width="156dp"
+                    android:layout_height="32dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/alram_insert_location" />
+
+                <TextView
+                    android:id="@+id/TV_insertLatitude"
+                    android:layout_width="186dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/colorPrimary"
+                    android:hint="위도" />
+
+                <TextView
+                    android:id="@+id/TV_insertLongtitude"
+                    android:layout_width="195dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/colorPrimary"
+                    android:hint="경도" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_insertAlarm"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/alram_insert_send" />
+
+    <Button
+        android:id="@+id/btn_insertBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/alram_insert_back" />
+
+
+</LinearLayout>

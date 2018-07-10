@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "406070336283",
+    "firebase_url": "https://hinew-275f7.firebaseio.com",
+    "project_id": "hinew-275f7",
+    "storage_bucket": "hinew-275f7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:406070336283:android:7f44e1d9fdd3d0a0",
+        "android_client_info": {
+          "package_name": "jiho.whereru.org.hinewapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "406070336283-hptjg675p2ls4j4pmotsmjr1aa7f42lc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "jiho.whereru.org.hinewapplication",
+            "certificate_hash": "2a6f5348f4a40db7f1897ce7905cfab41e5a786a"
+          }
+        },
+        {
+          "client_id": "406070336283-01l47hbj1poip7tm7sf455p9n3mtumkq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDY3bJI-YCPmlLtgAvDcwYdaccaAEvq4zw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "406070336283-01l47hbj1poip7tm7sf455p9n3mtumkq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:406070336283:android:66656e42f41c1ffa",
+        "android_client_info": {
+          "package_name": "jiho.whereru.org.ignitednewapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "406070336283-21opo1nqdcql9nv1qcg95bsjb5issto7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "jiho.whereru.org.ignitednewapplication",
+            "certificate_hash": "2a6f5348f4a40db7f1897ce7905cfab41e5a786a"
+          }
+        },
+        {
+          "client_id": "406070336283-8rn8surfmdv122tuvup5mh2hpn48gd08.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "jiho.whereru.org.ignitednewapplication",
+            "certificate_hash": "5113f9fac83c8e81ec29f23792937d870b6438d8"
+          }
+        },
+        {
+          "client_id": "406070336283-01l47hbj1poip7tm7sf455p9n3mtumkq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDY3bJI-YCPmlLtgAvDcwYdaccaAEvq4zw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "406070336283-01l47hbj1poip7tm7sf455p9n3mtumkq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
