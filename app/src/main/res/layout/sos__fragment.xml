@@ -4,9 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/all_background"
     tools:context=".Pager.SOS_Fragment">
 
-    <ImageView
+    <ImageButton
         android:id="@+id/btn_SOS"
         android:layout_width="353dp"
         android:layout_height="323dp"
@@ -15,6 +16,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="92dp"
         android:src="@drawable/btn_sos_1"
+        android:background="@drawable/all_background"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"

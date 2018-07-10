@@ -11,6 +11,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageButton;
+import android.widget.ImageView;
 
 import jiho.whereru.org.ignitednewapplication.R;
 
@@ -19,7 +21,7 @@ public class SOS_Fragment extends Fragment {
     @Override
     public View onCreateView(final LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         ConstraintLayout layout = (ConstraintLayout)inflater.inflate( R.layout.sos__fragment ,container,false);
-        Button btn_SOS = (Button)getActivity().findViewById( R.id.btn_SOS );
+        ImageButton btn_SOS = (ImageButton) layout.findViewById( R.id.btn_SOS );
         btn_SOS.setOnClickListener( new View.OnClickListener() {
             @Override
             public void onClick(View view) {
